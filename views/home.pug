@@ -1,0 +1,51 @@
+extends base.pug
+block scripts
+    script(src="/static/index.js")
+             
+block style
+    style
+        include ../static/style.css
+ 
+
+block content
+    section#introSection
+       div Welcome to kapil's Dance Academy
+       div.small Eat Sleep Dance Repeat
+       
+
+    section#missionSection
+        h2 Our mission
+        div.card 
+            h3 this our cards
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/image1.jpg")
+                    div.card-content
+                        p This is best dance academy in the world
+        div.card 
+            h3 this our cards
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/image4.jpg")
+                    div.card-content
+                        p This is best dance academy in the world
+        div.card 
+            h3 this our cards  
+                div.card-box
+                    div.card-img
+                        img(src="/static/img/image6.jpg")
+                    div.card-content
+                        p This is best dance academy in the world
+ 
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors                    
+            img(src="/static/img/apple.png" , alt="apple logo" , class="spImage")
+
+            img(src="/static/img/instagram.png" , alt="apple logo" , class="spImage")
+
+            img(src="/static/img/skype.png" , alt="apple logo" , class="spImage")
+
+            img(src="/static/img/microsoft.png" , alt="apple logo" , class="spImage")
+
+            img(src="/static/img/hp.png" , alt="apple logo" , class="spImage") 

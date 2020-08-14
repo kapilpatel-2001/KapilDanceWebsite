@@ -1,0 +1,36 @@
+h1 { 
+    text-align: center;
+}
+ 
+
+.container {
+    height: 550px;
+}
+.myInput {
+      display: block;
+      width: 500px;
+      margin: 10px auto;
+      padding:8px;
+      border:2px solid red;
+      border-radius: 10px;
+      
+
+
+}
+.btn {
+    background-color: red;
+    color: white;
+    margin: 10px 720px;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: grey;
+
+}
+
